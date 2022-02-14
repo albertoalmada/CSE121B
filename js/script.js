@@ -9,7 +9,7 @@ alert("Your BMI is " + bodyMassIndex);
 
 let local = document.getElementById("geolocation");
 
-let bmi = document.getElementById("bmi").innerHTML = "Your BMI result is: " + bodyMassIndex + ".";
+document.getElementById("bmi").innerHTML = "Your BMI result is: " + bodyMassIndex + ".";
 
 if (bodyMassIndex < 18.5) {
     alert("You're underweight.");
